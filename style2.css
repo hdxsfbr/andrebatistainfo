@@ -1,0 +1,119 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+html,body {
+	background:#064169 url(http://www.imageboo.com/files/yr5z2xwsup70a86c4q1w.jpg) repeat-x;
+	font-family: Arial, "MS Trebuchet", sans-serif;
+	font-size:18px;
+}
+
+#main_wrapper{
+	margin: 0 auto;
+	width:1024px;
+}
+	#header{
+		background: url(http://www.imageboo.com/files/mfs3yywxgwf1ruuiyh8i.jpg);
+		height:133px;
+		border:none;
+		margin:0;
+	}
+	
+		#social_links_div{
+			text-align:right;
+			margin-right:161px;
+		}
+			#social_links_div img{
+			padding-top:30px;
+			cursor:pointer;
+			}
+	
+	#menu_wrapper{
+		background: url(http://www.imageboo.com/files/awt8nmvx8b1y79rd1am9.jpg);
+		height:34px;
+		overflow:hidden;
+		
+	}
+		#menu_wrapper .menu_item{
+			color:white;
+			float: left;
+			border: none;
+			height: 34px;
+			padding-top:10px;	
+			text-align:center;
+			width:100px;
+			
+		}
+		
+		
+		#menu_wrapper .first{
+			padding-left:240px;
+			float:left;
+			width:100px;
+			
+		}
+		#menu_wrapper .active,#menu_wrapper .menu_item:hover{
+			background-color:white;
+			color:Teal;
+			cursor: pointer;
+		}
+	
+	#content_area_wrapper{
+		background: url(http://www.imageboo.com/files/p3jywlc03oar60wk71ph.jpg) repeat-y;
+	}
+		#content_area{
+			min-height:524px;
+			background: url(http://www.imageboo.com/files/jb48kqxoirgzkmh2yz90.jpg) repeat-x;
+		}
+			#main_banner{
+				background: url(http://www.imageboo.com/files/ln67ioexmsmsos5fxnid.jpg) no-repeat center center;
+				width:662px;
+				height:338px;
+				margin: 0 auto;
+				
+			}
+			#main_banner div{
+				color:white;
+				padding-left:47px;
+				padding-right:164px;
+				padding-top:105px;
+			}
+			#text_area{
+				overflow:hidden;
+				width:662px;
+				margin:0 auto;
+				padding:14px;
+			}
+				#contentList{
+					padding:0 20px 20px 20px;
+				}
+				#text_area .left{
+					width:50%;
+					float:left;
+				}
+				#text_area .left{
+					width:50%;
+					float:right;				
+				}
+						
+	#footer2{
+		background: url(http://www.imageboo.com/files/2bxwk29pt9dh9jx74mtv.jpg);
+		height:62px;
+	}
+	
+	#footer{
+		background: url(http://www.imageboo.com/files/2bxwk29pt9dh9jx74mtv.jpg);
+		height:62px;
+	}
+	
+	#bottomLinks{
+		text-align:center;
+		color:white;
+	}
+	
+	#bottomLinks a:visited,#bottomLinks a:link{
+		color:white;
+		font-size:10px;
+	}

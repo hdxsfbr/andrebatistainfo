@@ -1,0 +1,146 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+html,body {
+	background:#064169 url(images/main_gradient_slice.jpg) repeat-x;
+	font-family: Arial, "MS Trebuchet", sans-serif;
+	font-size:18px;
+}
+
+#main_wrapper{
+	margin: 0 auto;
+	width:1024px;
+}
+	#header{
+		background: url(images/header.jpg);
+		height:133px;
+		border:none;
+		margin:0;
+	}
+		#social_links_div{
+			text-align:right;
+			margin-right:161px;
+		}
+			#social_links_div img{
+				padding-top:30px;
+				cursor:pointer;
+			}
+	
+	#menu_wrapper{
+		background: url(images/menu.jpg);
+		height:34px;
+		overflow:hidden;
+		
+	}
+		#menu_wrapper .menu_item{
+			color:white;
+			float: left;
+			border: none;
+			height: 34px;
+			padding-top:10px;	
+			text-align:center;
+			width:100px;
+			
+		}
+		
+		#menu_wrapper .first{
+			padding-left:240px;
+			float:left;
+			width:100px;
+			
+		}
+		#menu_wrapper .active,#menu_wrapper .menu_item:hover{
+			background-color:white;
+			color:Teal;
+			cursor: pointer;
+		}
+	
+	#content_area_wrapper{
+		background: url(images/body_bg_slice.jpg) repeat-y;
+	}
+		#content_area{
+			background: url(images/main_content_top.jpg) repeat-x;
+		}
+			#main_banner{
+				background: url(images/main_banner.jpg) no-repeat center center;
+				width:662px;
+				height:338px;
+				margin: 0 auto;
+				
+			}
+			#main_banner div{
+				color:white;
+				padding-left:47px;
+				padding-right:164px;
+				padding-top:105px;
+			}
+			#text_area{
+				overflow:hidden;
+				width:662px;
+				margin:0 auto;
+				padding:14px;
+			}
+				#contentList{
+					padding:0 20px 20px 20px;
+				}
+				#text_area .left{
+					width:50%;
+					float:left;
+				}
+				#text_area .left{
+					width:50%;
+					float:right;				
+				}
+						
+	#footer2{
+		background: url(images/footer.jpg);
+		height:62px;
+	}
+	
+	#footer{
+		background: url(images/footer.jpg);
+		height:62px;
+	}
+	
+	#contact_table input,textarea{
+		-moz-border-radius: 3%;
+		border: 2px solid gray;
+	}
+	
+	#contact_table input{
+		height:20px;
+	}
+	
+	#contact_table label{
+		width:100px;
+	}
+	
+	#contact_table .contact_label{
+		text-align:right;
+		padding:5px;
+	}
+	
+	#contact_table tr{
+	
+	}
+	
+	.required{
+		color:Teal;
+	}
+	
+	#bottomLinks{
+		text-align:center;
+		color:white;
+	}
+	
+	#bottomLinks a:visited{
+		color:white;
+		font-size:10px;
+	}
+	
+	
+	
+	
